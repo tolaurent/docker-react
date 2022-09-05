@@ -1,8 +1,8 @@
-name: Deploy
+name: Deploy frontend
 on:
   push:
     branches:
-      - main
+      - master
  
 jobs:
   build:
